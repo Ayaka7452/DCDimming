@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">伪 DC 调光</string>
+    <string name="app_name">DC 调光</string>
     <string name="no_prefs_message">在 LSPosed 中启用模块并重新启动应用以保存设置。</string>
     <string name="xposed_description">通过软件亮度增益为部分 OLED 屏幕在低亮度下启用替代（类 DC）调制方式。</string>
     <string name="title_activity_settings">模块设置</string>
@@ -21,4 +21,10 @@
     <string name="project_home_title">项目主页</string>
     <string name="gain_applied_twice_title" >修复重复应用的增益</string>
     <string name="gain_applied_twice_summary" >一些设备会错误地应用两次增益，我们可以通过发送增益的平方根来绕过这个问题。</string>
+
+    <!-- 桌面长按菜单 -->
+    <string name="shortcut_toggle_on_short">开</string>
+    <string name="shortcut_toggle_on_long">开启 DC 调光</string>
+    <string name="shortcut_toggle_off_short">关</string>
+    <string name="shortcut_toggle_off_long">关闭 DC 调光</string>
 </resources>

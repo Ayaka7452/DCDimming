@@ -1,0 +1,29 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="dc_toggle_on"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_on"
+        android:shortcutShortLabel="@string/shortcut_toggle_on_short"
+        android:shortcutLongLabel="@string/shortcut_toggle_on_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="xyz.cirno.pseudodcdimming"
+            android:targetClass="xyz.cirno.pseudodcdimming.ToggleActivity">
+            <extra android:name="enabled" android:value="true" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="dc_toggle_off"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_off"
+        android:shortcutShortLabel="@string/shortcut_toggle_off_short"
+        android:shortcutLongLabel="@string/shortcut_toggle_off_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="xyz.cirno.pseudodcdimming"
+            android:targetClass="xyz.cirno.pseudodcdimming.ToggleActivity">
+            <extra android:name="enabled" android:value="false" />
+        </intent>
+    </shortcut>
+</shortcuts>

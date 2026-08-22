@@ -6,4 +6,13 @@
         <item name="android:windowLightNavigationBar">?android:isLightTheme</item>
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
+
+    <!-- No-UI theme used by the launcher shortcut toggle. -->
+    <style name="Theme.TransparentToggle" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
 </resources>
