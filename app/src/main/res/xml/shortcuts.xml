@@ -2,7 +2,7 @@
     <shortcut
         android:shortcutId="dc_toggle_on"
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_on"
+        android:icon="@drawable/ic_shortcut_power"
         android:shortcutShortLabel="@string/shortcut_toggle_on_short"
         android:shortcutLongLabel="@string/shortcut_toggle_on_long">
         <intent
@@ -16,7 +16,7 @@
     <shortcut
         android:shortcutId="dc_toggle_off"
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_off"
+        android:icon="@drawable/ic_shortcut_power"
         android:shortcutShortLabel="@string/shortcut_toggle_off_short"
         android:shortcutLongLabel="@string/shortcut_toggle_off_long">
         <intent
